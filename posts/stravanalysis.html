@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building StravAnalysis</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../blog.html">Blog</a>
+    </nav>
+
+    <h1>Building StravAnalysis</h1>
+
+    <p><em>June 25 2026</em></p>
+    <br>
+    <p>
+        As a runner without the Strava premium subscription, performance-based and recovery-based metrics have always
+        been important to me. As my final project for AP Computer Science approached,
+        I began to think of what would be a unique, seamless, and realistic project. We only had 5 weeks to complete the
+        project, so I had to make sure that my
+        program was able to function with less features, but also leave room for growth. After talking with my
+        groupmates, we decided on using the Strava API and analyzing
+        activity and performance data.
+    </p>
+
+    <br>
+    <p>This decision came after I noticed a big problem with current fitness analysis platforms. Apps like Strava,
+        Garmin, and various others display analysis for workouts, but they do not offer personalized feedback and
+        easy-to-understand visuals. This is largely
+        from their attemps to "do too much", as some statistics can be difficult to analyze for beginners. Even though
+        this is such a noticeable problem in the running and fitness world, Not many people have found solutions to this
+        problem. </p>
+
+
+
+    <br>
+    <p>
+        StravAnalysis aims to do what current apps lack, visual respresentation and quantifying qualitative data. The
+        app creates graphs of important running metrics, like fatigue and chronic vs acute workload,
+        create race predictions that have strong accuracy, and calculate training effect and recovery. As we began, we
+        decided on a three page style: Dashboard, Activities, and Analysis.
+    </p>
+    <br>
+    <p>The dashboard page provides an overall summary of current training progress, including weekly metrics and streak
+        metrics, and graphs of mileage and chronic workload.</p>
+
+    <br>
+    <p>The activities page includes individual pages
+        for each activity, as well as heart rate zones and zone analysis, which helps athletes understand what each
+        workout benefits.</p>
+
+
+    <br>
+
+    <p>We considered training our own models for the Analysis page, but chose to integrate the
+        Gemini API instead to be able to build a complete product.</p>
+
+    <p>At the end of the project, we had a working program that could analyze strava activities, which was the goal.
+        Even though the goal was achieved,
+        there are definitely many things that could be improved. Authentication was the biggest hurdle along the way,
+        and it can sometimes get complicated when different operating systems use the app. Also,
+        Strava is planning to make their API subscriber-only, which will inevitably stop the project. Even with this,
+        StravAnalysis will continue to be improved and it has definitely made an impact on the way I see my
+        running data.
+    </p>
+
+
+
+
+
+</body>
+
+</html>
