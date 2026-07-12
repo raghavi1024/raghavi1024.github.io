@@ -97,3 +97,26 @@ a:link {
   text-decoration: none;
   color:#003366
 }
+
+img{
+    max-width:100%;
+    height:auto;
+}
+.route-map {
+    width: 100%;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.route-map iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 10px;
+}
+
+.route-map figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
